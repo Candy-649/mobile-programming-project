@@ -243,7 +243,7 @@ fun BasicLayout(
                                 val coarseGranted = permissions[Manifest.permission.ACCESS_COARSE_LOCATION] == true
                                 weatherViewModel.fetchWeatherWithLocation(
                                     LocationServices.getFusedLocationProviderClient(context),
-                                    fineGranted, coarseGranted, "AIzaSyC76PR2xOqWqW8nxpqDYKHWgjwejTYOixI"
+                                    fineGranted, coarseGranted, BuildConfig.MAPS_API_KEY
                                 )
                             }
                             val hasFine = ContextCompat.checkSelfPermission(context, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED
