@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">HealthyHabitTracker</string>
+    <string name="expanded_icon_description">expanded icon</string>
+    <string name="water_home_label">Daily Water</string>
+    <string name="step_home_label">Today\'s step</string>
+    <string name="main_screen_name">Home</string>
+    <string name="water_scree_name">Water</string>
+    <string name="step_screen_name">Step</string>
+    <string name="run_screen_name">Run</string>
+    <string name="profile_screen_name">Profile</string>
+    <string name="set_daily_water_goal">Set Daily Water Goal</string>
+    <string name="set_goal">SetGoal</string>
+    <string name="set_step_goal">SetStepGoal</string>
+    <string name="set_daily_step_goal">Set Daily Step Goal</string>
+    <string name="setting">Setting</string>
+    <string name="notification_type">Notification Type</string>
+    <string name="edit_nickname">Edit Nickname</string>
+    <string name="edit_mobile_number">Edit Mobile Number</string>
+    <string name="set_water_reminder">Set Water Reminder</string>
+    <string name="log_in">Log in</string>
+</resources>
